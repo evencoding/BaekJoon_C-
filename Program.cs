@@ -6,7 +6,10 @@ namespace BaekJoon_C_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string result = @"강한친구 대한육군
+강한친구 대한육군";
+
+            Console.WriteLine(result);
         }
     }
 }
