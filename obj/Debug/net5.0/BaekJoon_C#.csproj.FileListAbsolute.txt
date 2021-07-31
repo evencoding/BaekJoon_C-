@@ -1,0 +1,16 @@
+C:\Users\zcow0\Documents\BaekJoon_C#\bin\Debug\net5.0\BaekJoon_C#.exe
+C:\Users\zcow0\Documents\BaekJoon_C#\bin\Debug\net5.0\BaekJoon_C#.deps.json
+C:\Users\zcow0\Documents\BaekJoon_C#\bin\Debug\net5.0\BaekJoon_C#.runtimeconfig.json
+C:\Users\zcow0\Documents\BaekJoon_C#\bin\Debug\net5.0\BaekJoon_C#.runtimeconfig.dev.json
+C:\Users\zcow0\Documents\BaekJoon_C#\bin\Debug\net5.0\BaekJoon_C#.dll
+C:\Users\zcow0\Documents\BaekJoon_C#\bin\Debug\net5.0\ref\BaekJoon_C#.dll
+C:\Users\zcow0\Documents\BaekJoon_C#\bin\Debug\net5.0\BaekJoon_C#.pdb
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\BaekJoon_C#.csproj.AssemblyReference.cache
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\BaekJoon_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\BaekJoon_C#.AssemblyInfoInputs.cache
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\BaekJoon_C#.AssemblyInfo.cs
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\BaekJoon_C#.csproj.CoreCompileInputs.cache
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\BaekJoon_C#.dll
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\ref\BaekJoon_C#.dll
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\BaekJoon_C#.pdb
+C:\Users\zcow0\Documents\BaekJoon_C#\obj\Debug\net5.0\BaekJoon_C#.genruntimeconfig.cache
