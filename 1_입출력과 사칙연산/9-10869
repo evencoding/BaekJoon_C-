@@ -1,0 +1,20 @@
+using System;
+
+namespace BaekJoon_C_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] s = Console.ReadLine().Split(' ');
+            int numA = int.Parse(s[0]);
+            int numB = int.Parse(s[1]);
+
+            Console.WriteLine(numA + numB);
+            Console.WriteLine(numA - numB);
+            Console.WriteLine(numA * numB);
+            Console.WriteLine(numA / numB);
+            Console.WriteLine(numA % numB);
+        }
+    }
+}

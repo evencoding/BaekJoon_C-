@@ -1,0 +1,16 @@
+using System;
+
+namespace BaekJoon_C_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 리터럴 문자열
+            string str = @"강한친구 대한육군
+            강한친구 대한육군";
+
+            Console.WriteLine(str);
+        }
+    }
+}
