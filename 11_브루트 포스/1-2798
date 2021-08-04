@@ -1,0 +1,34 @@
+// 2021-08-04
+
+using System;
+
+namespace BaekJoon_C_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] inputNum = Console.ReadLine().Split();
+
+            int N = Convert.ToInt32(inputNum[0]);
+            int M = Convert.ToInt32(inputNum[1]);
+
+            string[] cardList = Console.ReadLine().Split();
+
+            int result = 0;
+
+            for (int i = 0; i < N - 2; i++){
+                for (int j = i + 1; j < N - 1; j++){
+                    for (int k = j + 1; k < N; k++){
+                        int cardSum = int.Parse(cardList[i]) + int.Parse(cardList[j]) + int.Parse(cardList[k]);
+                        
+                        if(cardSum <= M && cardSum > result){
+                            result = cardSum;
+                        }
+                    }
+                }
+            }
+            Console.WriteLine(result);
+        }
+    }
+}
