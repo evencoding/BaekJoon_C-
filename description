@@ -1,0 +1,6 @@
+# 문자열 보간
+    ($"문자열 {변수}")
+
+# List<> 사용하기위해 
+using System.Collections.Generic;
+List에서 length와 같은기능은 Count

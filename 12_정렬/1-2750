@@ -1,4 +1,6 @@
-﻿using System;
+// 2021-08-07
+
+using System;
 using System.Collections.Generic;
 
 namespace BaekJoon_C_
