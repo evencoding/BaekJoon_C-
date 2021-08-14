@@ -1,4 +1,4 @@
-﻿// 2021-08-08
+﻿// 2021-08-14
 
 using System;
 using System.Collections.Generic;
@@ -10,51 +10,14 @@ namespace BaekJoon_C_
     {
         static void Main(string[] args)
         {
-            int N = int.Parse(Console.ReadLine());
-
-            string[] arr;
-            List<string> stack = new List<string>();
-            int stack_count = 0;
-
-            StringBuilder sb = new StringBuilder();
+            int N = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < N; i++){
-                arr = Console.ReadLine().Split();
-
-                switch(arr[0]){
-                    case "push":
-                        stack.Add(arr[1]);
-                        stack_count++;
-                        break;
-                    case "pop":
-                        if(stack_count == 0){
-                            sb.Append("-1\n");
-                        } else {
-                            sb.Append(stack[stack_count-1] + "\n");
-                            stack.RemoveAt(stack_count-1);
-                            stack_count--;
-                        }
-                        break;
-                    case "size":
-                        sb.Append(stack_count + "\n");
-                        break;
-                    case "empty":
-                        if(stack_count == 0){
-                            sb.Append("1\n");
-                        } else {
-                            sb.Append("0\n");
-                        }
-                        break;
-                    case "top":
-                        if(stack_count == 0){
-                            sb.Append("-1\n");
-                        } else {
-                            sb.Append(stack[stack_count - 1] + "\n");
-                        }
-                        break;
+                for (int j = 0; j <= i; j++){
+                    Console.Write("*");
                 }
+                Console.WriteLine("");
             }
-            Console.WriteLine(sb);
         }
     }
 }
