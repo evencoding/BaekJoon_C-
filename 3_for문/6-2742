@@ -1,4 +1,4 @@
-﻿// 2021-08-15
+// 2021-08-15
 
 using System;
 using System.Collections.Generic;
@@ -13,15 +13,8 @@ namespace BaekJoon_C_
             int N = Convert.ToInt32(Console.ReadLine());
             StringBuilder sb = new StringBuilder();
 
-            for (int i = 0; i < N; i++){
-                for (int j = 0; j < N - 1 - i; j++){
-                    sb.Append(" ");
-                }
-                for (int k = 0; k < i + 1; k++)
-                {
-                    sb.Append("*");
-                }
-                sb.Append("\n");
+            for (int i = N; i > 0; i--){
+                sb.Append(i + "\n");
             }
             Console.WriteLine(sb);
         }
