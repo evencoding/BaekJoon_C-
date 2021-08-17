@@ -1,0 +1,28 @@
+// 2021-08-17
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace BaekJoon_C_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            while(true)
+            {
+                try
+                {
+                    string[] input_num = Console.ReadLine().Split();
+                    int result = int.Parse(input_num[0]) + int.Parse(input_num[1]);
+                    Console.WriteLine(result);
+                }
+                catch
+                {
+                    return;
+                }
+            }
+        }
+    }
+}
