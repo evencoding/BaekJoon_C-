@@ -8,17 +8,37 @@ namespace BaekJoon_C_
 {
     class Program
     {
+        static List<int> input_list;
         static void Main(string[] args)
         {
-            while(true)
+            int N = int.Parse(Console.ReadLine());
+            input_list = new List<int>();
+            int sum = 0;
+
+            for (int i = 0; i < N; i++)
             {
-                string input = Console.ReadLine();
-                if(input == null) break;
-                string[] N = input.Split();
-                int a = int.Parse(N[0]);
-                int b = int.Parse(N[1]);
-                Console.WriteLine(a + b);
+                int input_num = int.Parse(Console.ReadLine());
+                if(input_num == 0)
+                {
+                    if(input_list.Count == 0)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        input_list.RemoveAt(input_list.Count - 1);
+                    }
+                }
+                else
+                {
+                    input_list.Add(input_num);
+                }
             }
+            for (int i = 0; i < input_list.Count; i++)
+            {
+                sum += input_list[i];
+            }
+            Console.WriteLine(sum);
         }
     }
 }
